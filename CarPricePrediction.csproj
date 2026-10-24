@@ -7,4 +7,15 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.ML" Version="5.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="used_cars_1000.csv" />
+      <Content Include="used_cars_1000.csv">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>
