@@ -1,6 +1,6 @@
 namespace CarPricePrediction;
 
-public class CarPricePrediction
+public class PricePrediction
 {
     public float Score { get; set; }
 }
